@@ -18,7 +18,7 @@ namespace LetsWriteOwnGenericLists
             values = new Value[0];
         }
 
-        public void Add(Key key, Value value)
+        public void MyAdd(Key key, Value value)
         {
             Key[] tempKeyArray = keys;
             Value[] tempValueArray = values;

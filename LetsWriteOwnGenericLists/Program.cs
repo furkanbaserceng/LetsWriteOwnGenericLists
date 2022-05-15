@@ -26,9 +26,9 @@ namespace LetsWriteOwnGenericLists
 
             MyDictionary<string,string> myDictionary = new MyDictionary<string,string>();
 
-            myDictionary.Add("Book","Kitap");
-            myDictionary.Add("Table", "Masa");
-            myDictionary.Add("Pencil","Kalem");
+            myDictionary.MyAdd("Book","Kitap");
+            myDictionary.MyAdd("Table", "Masa");
+            myDictionary.MyAdd("Pencil","Kalem");
 
             
 
