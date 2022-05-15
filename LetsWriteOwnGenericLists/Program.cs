@@ -22,6 +22,34 @@ namespace LetsWriteOwnGenericLists
 
             Console.WriteLine("Dizinin eleman sayısı:{0}", myList.MyLength);
 
+            Console.WriteLine("---------------------------------------");
+
+            MyDictionary<string,string> myDictionary = new MyDictionary<string,string>();
+
+            myDictionary.Add("Book","Kitap");
+            myDictionary.Add("Table", "Masa");
+            myDictionary.Add("Pencil","Kalem");
+
+            
+
+            foreach (var item in myDictionary.ItemsKey)
+            {
+                Console.WriteLine("Keys:"+item);
+            }
+
+            Console.WriteLine();
+
+            foreach (var item in myDictionary.ItemsValue)
+            {
+                Console.WriteLine("Values:" + item);
+            }
+
+            Console.WriteLine();
+
+            Console.WriteLine("Toplam Key Sayısı: {0}",myDictionary.CountKey);
+            Console.WriteLine("Toplam Value Sayısı: {0}", myDictionary.CountValue);
+
+
 
             Console.ReadLine();
 
