@@ -11,8 +11,8 @@ namespace LetsWriteOwnGenericLists
         static void Main(string[] args)
         {
             MyList<int> myList = new MyList<int>();
-            myList.Add(5);
-            myList.Add(10);
+            myList.MyAdd(5);
+            myList.MyAdd(10);
 
             foreach (var item in myList.Items)
             {

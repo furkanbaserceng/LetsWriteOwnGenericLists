@@ -19,7 +19,7 @@ namespace LetsWriteOwnGenericLists
         /// Diziye yeni eleman ekleme metodu.
         /// </summary>
         /// <param name="item"></param>
-        public void Add(T item)
+        public void MyAdd(T item)
         {
             T[] tempArray = arrays;             //newlenince referans kaybolmasın diziye geçiçi diziye aktarıldı.referanslar eşitlendi.
             arrays = new T[arrays.Length + 1];  //eleman sayısı 1 arttı.
